@@ -1,0 +1,34 @@
+{
+  "name": "recaptcha-v3-react-function-async",
+  "version": "0.0.1",
+  "description": "This library helps to integrate google recaptcha into your react project easily.",
+  "keywords": [
+    "react",
+    "react.js",
+    "react-component",
+    "ReCaptcha",
+    "g-recaptcha",
+    "invisible-recaptcha",
+    "visible-recaptcha",
+    "recaptcha-token",
+    "recaptcha-async",
+    "react-function"
+  ],
+  "main": "build/index.js",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "test": "NODE build/index.js",
+    "build": "babel -d build src",
+    "clean": "rm -rf ./package-lock.json ./node_modules/",
+    "prepublish": "rm -rf ./dist && npm run build"
+  },
+  "author": "stronggenius",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/node": "^7.13.10",
+    "@babel/preset-env": "^7.13.10"
+  },
+  "dependencies": {
+    "react": "^17.0.1"
+  }
+}
