@@ -18,17 +18,19 @@
   "scripts": {
     "start": "babel-node src/index.js",
     "test": "NODE build/index.js",
-    "build": "babel -d build src",
+    "build": "babel src --out-dir build",
     "clean": "rm -rf ./package-lock.json ./node_modules/",
     "prepublish": "rm -rf ./dist && npm run build"
   },
   "author": "stronggenius",
   "license": "ISC",
   "devDependencies": {
-    "@babel/node": "^7.13.10",
-    "@babel/preset-env": "^7.13.10"
+    "@babel/cli": "^7.16.8",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.8"
   },
   "dependencies": {
-    "react": "^17.0.1"
+    "axios": "^0.24.0",
+    "querystring": "^0.2.1"
   }
 }
