@@ -2,6 +2,9 @@
 
 This component is created in order to make the experience of integrating Google ReCaptcha into React apps easier and smoother.
 
+# YouTub instruction
+https://youtu.be/yyR6wZGl-IM
+
 # Google ReCaptcha V3
 
 ## Installation
