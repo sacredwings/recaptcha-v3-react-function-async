@@ -1,5 +1,7 @@
 "use strict";
 
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -22,10 +24,10 @@ Object.defineProperty(exports, "serverCheckResult", {
   }
 });
 
+var _regeneratorRuntime = _interopRequireDefault(require("regenerator-runtime"));
+
 var _loadReCaptcha = _interopRequireDefault(require("./loadReCaptcha"));
 
 var _reCaptchaExecute = _interopRequireDefault(require("./reCaptchaExecute"));
 
 var _serverCheckResult = _interopRequireDefault(require("./serverCheckResult"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
