@@ -1,6 +1,6 @@
 {
   "name": "recaptcha-v3-react-function-async",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "This library helps to integrate google recaptcha into your react project easily.",
   "keywords": [
     "react",

@@ -8,7 +8,7 @@ import querystring from "querystring"
  * @returns {Promise}
  */
 
-export async function serverCheckResult (captchaResponse, secret) {
+export default async (captchaResponse, secret) => {
     let params = {
         secret: secret,
         response: captchaResponse
